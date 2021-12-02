@@ -1,0 +1,132 @@
+#intro {
+  background-image: url(/Assets/images/banner1-6.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: -1;
+}
+
+#intro .col-md-4 {
+  margin-top: 400px;
+}
+
+#intro .We-Make {
+  color: white;
+  font-size: 48px;
+  font-weight: 100;
+}
+
+#intro .Our-Trax {
+  color: white;
+  font-size: 48px;
+  font-weight: 100;
+}
+
+#intro .New-Design {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+#intro .Inspired {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#intro .col-md-4 {
+  z-index: 999;
+}
+
+#intro .box-1 {
+  position: relative;
+  height: 300px;
+  background-color: #090c3a;
+  z-index: 99;
+  -webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+}
+
+#intro .box-2 {
+  position: relative;
+  height: 350px;
+  background-color: #61aae6;
+  z-index: 99;
+  -webkit-transform: translateY(-230px);
+          transform: translateY(-230px);
+}
+
+#intro .box-3 {
+  position: relative;
+  height: 300px;
+  background-color: #090c3a;
+  z-index: 99;
+  -webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+}
+
+#intro .box-3 .second {
+  -webkit-transform: translateY(650px);
+          transform: translateY(650px);
+}
+
+#intro::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.41);
+  left: 0;
+  top: 0;
+  z-index: -2;
+}
+
+.navbar .navbar-light .navbar-nav .nav-link {
+  font-weight: 900px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #26313c;
+}
+
+.navbar .navbar-brand img {
+  width: 100%;
+  display: inline-block;
+}
+
+#next-level {
+  height: 90vh;
+}
+
+#next-level img {
+  height: 400px;
+  width: 500px;
+}
+
+#next-level .row.d-flex.OfNext {
+  margin-top: 40vh;
+}
+
+#next-level .navbar-toggler {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  padding: 0.8rem 2.25rem;
+  line-height: 1;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 500;
+  z-index: 1;
+  border: 1px solid transparent;
+}
+
+#next-level .btn.btn-primary {
+  background-color: #53aed8;
+  width: 150px;
+  border-radius: 20%;
+  padding: 10px 20px;
+}
+/*# sourceMappingURL=style.css.map */

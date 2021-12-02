@@ -1,0 +1,30 @@
+#next-level{
+    height: 90vh;
+img{
+    height: 400px;
+    width: 500px;
+}
+.row.d-flex.OfNext{
+    margin-top: 40vh;
+}
+
+.navbar-toggler{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0.8rem 2.25rem;
+    line-height: 1;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    z-index: 1;
+    border: 1px solid transparent;
+}
+.btn.btn-primary{
+    background-color:rgb(83, 174, 216);
+    width: 150px;
+    border-radius: 20%;
+    padding: 10px 20px;
+}
+  
+}
